@@ -1,0 +1,45 @@
+.nav{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+
+
+}
+
+.nav__logo{
+  display: inline-block;
+  float: left;
+  margin-left: 100px;
+}
+
+.nav__a{
+  text-decoration: none;
+  color: $quicksilver;
+  font-family: $mono;
+  font-size: $large;
+  font-weight: $regular;
+margin-left: 60px;
+
+}
+
+.nav__logo-img{
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+
+
+.nav__links{
+  display: inline-block;
+  margin-left:40px;
+  margin-top: 25px;
+
+}
+
+
+.nav__buttons{
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+  margin-top: 25px;
+}

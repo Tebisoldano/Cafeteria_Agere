@@ -1,0 +1,31 @@
+.primary{
+  color: $quicksilver;
+  background-color: $white;
+  font-family: $mono;
+  font-weight: $regular;
+  font-size: $large;
+  border: 1px solid $quicksilver;
+  padding: 10px 20px;
+  margin-right: 20px;
+
+&:hover{
+  color: $outerspace;
+  background-color: $white;
+  border: 1px solid $black;
+}
+}
+
+.secondary{
+  color: $white;
+  background-color: $shamrock;
+  font-family: $mono;
+  font-weight: $regular;
+  font-size: $large;
+  border: 0px;
+  padding: 10px 20px;
+
+&:hover{
+  color: $black;
+  background-color: $tgreen;
+}
+}
